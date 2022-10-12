@@ -1,15 +1,17 @@
 .container2{
     margin-bottom: 40px;
+    margin-left: 40;
+    margin-right: 40;
 }
 
 h2{
     text-align:center;
-    padding: 20px;
+    padding: 30px;
   }
   /* Slider */
   
   .slick-slide {
-      margin: 0px 10px;
+      margin: 0px 30px;
   }
   
   .slick-slide img {

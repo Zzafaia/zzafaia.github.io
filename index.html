@@ -1,13 +1,9 @@
 
 <html>
-    <link href="css/bootstrap.css" rel="stylesheet" id="bootstrap-css">
-<script src="js/bootstrap.js"></script>
-<script src="js/cloudfare.js"></script>
-
-
+ 
 <html lang="it"></html>
 
-<!-- inizio nav bar-->
+
  <head>
     <title>Centro studi</title>
     <link rel="shortcut icon" href="img/logo.png" />
@@ -21,18 +17,62 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic'><link rel="stylesheet" href="./style.css">
     <script src="js/index.js"></script>
-    <link href="css/index.css" rel="stylesheet" type="text/css">
-    <script src="js/dropdown.js"></script>
-    <script src="js/dropdown_2.js"></script>
-    <script src="js/dropdown_3.js"></script>
+    <link href="css/header_+.css" rel="stylesheet" type="text/css">
     <link href="css/slideshow.css" rel="stylesheet" type="text/css">
     <script src="js/slideshow.js"></script>
     <link href="css/Corsi in evidenza.css" rel="stylesheet" type="text/css">
     
  </head>
-<!-- fine nav bar-->
+
 
  <body>
+
+  <header class="header-area overlay">
+    <nav class="navbar navbar-expand-md navbar-dark">
+		<div class="container">
+      <div class="logo">
+			<a href="#" class="navbar-brand"><img src="img/logo.png" alt="logo-image"></a>
+       </div>
+			<button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#main-nav">
+				<span class="menu-icon-bar"></span>
+				<span class="menu-icon-bar"></span>
+				<span class="menu-icon-bar"></span>
+			</button>
+			
+			<div id="main-nav" class="collapse navbar-collapse">
+				<ul class="navbar-nav ml-auto">
+					<li><a href="#" class="nav-item nav-link active">Home</a></li>
+					<li><a href="#" class="nav-item nav-link">About Us</a></li>
+					<li class="dropdown">
+						<a href="#" class="nav-item nav-link" data-toggle="dropdown">Services</a>
+						<div class="dropdown-menu">
+							<a href="#" class="dropdown-item">Dropdown Item 1</a>
+							<a href="#" class="dropdown-item">Dropdown Item 2</a>
+							<a href="#" class="dropdown-item">Dropdown Item 3</a>
+						</div>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="nav-item nav-link" data-toggle="dropdown">Portfolio</a>
+						<div class="dropdown-menu">
+							<a href="#" class="dropdown-item">Dropdown Item 1</a>
+							<a href="#" class="dropdown-item">Dropdown Item 2</a>
+							<a href="#" class="dropdown-item">Dropdown Item 3</a>
+							<a href="#" class="dropdown-item">Dropdown Item 4</a>
+							<a href="#" class="dropdown-item">Dropdown Item 5</a>
+						</div>
+					</li>
+					<li><a href="#" class="nav-item nav-link">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+  
+  </header>
+  
+
+
+
+  <!-- inizio nav bar
     <nav class="navbar navbar-expand-sm   navbar-light bg-light">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -73,15 +113,17 @@
               <a class="dropdown-item" href="#">Link 5</a>
               <a class="dropdown-item" href="#">Link 6</a>
             </div>
-          </li> -->
+          </li> 
           </ul>
           <div class="social-part">
             <a href="https://it-it.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            <i class="fa fa-twitter" aria-hidden="true"></i>
-            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <div class="logo">
+            <img src="img/logo.png" alt="logo-image">
+          </div>
           </div>
         </div>
       </nav>
+<!-- fine nav bar-->
 
       <!-- Start slideshow-->
       <main class="main-content">
