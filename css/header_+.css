@@ -139,8 +139,9 @@ html {
   color: #fff;
 }
 .navbar .dropdown-menu {
+  margin-top: -16;
   padding: 0;
-  background-color: rgba(0, 0, 0, .9);
+  background-color: rgba(1, 43, 160, 0.9);
 }
 .navbar .dropdown-menu .dropdown-item {
   position: relative;

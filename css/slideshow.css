@@ -4,6 +4,7 @@ body {
 }
 
 .btn {
+  font-weight: bold;
   display: inline-block;
   padding: 13px 20px;
   color: #fff;
@@ -37,6 +38,7 @@ body {
 .btn .btn-inner {
   position: relative;
   z-index: 2;
+  
 }
 .btn:hover {
   color: #373737;

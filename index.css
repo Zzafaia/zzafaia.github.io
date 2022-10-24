@@ -16,9 +16,8 @@ body {
   font-size: 1.6rem;
   font-weight: 400;
 }
-h1 {
-  margin-bottom: 0.5em;
-  font-size: 3.6rem;
+.blocco-servizi h1{
+  text-align: center;
 }
 p {
   margin-bottom: 0.5em;

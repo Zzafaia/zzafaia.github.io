@@ -73,7 +73,7 @@ color: #ffffff;
 }
 .site-footer .social-icons
 {
-  text-align:right
+  text-align:center ;
 }
 .site-footer .social-icons a
 {
@@ -104,14 +104,15 @@ color: #ffffff;
   }
   .site-footer .copyright-text,.site-footer .social-icons
   {
-    text-align:center
+    text-align:center;
   }
 }
 .social-icons
 {
   padding-left:0;
   margin-bottom:0;
-  list-style:none
+  list-style:none;
+  text-align:center;
 }
 .social-icons li
 {
