@@ -26,8 +26,8 @@ p {
   color: #b3b3b3;
   font-weight: 300; }
 
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
+h2, h3, h4, h5, h6,
+.h2, .h3, .h4, .h5, .h6 {
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
 
 a {
@@ -36,6 +36,168 @@ a {
   transition: .3s all ease; }
   a, a:hover {
     text-decoration: none !important; }
+
+    #text-black img{
+   height: 5px;
+    }
+
+
+    .blocco-servizi{
+      text-align: center;
+    }
+    .blocco-servizi h1{
+
+      font-weight: bold;
+      font-size: 2em;
+      margin-bottom: 1.50%;
+      margin-top: 4%;
+    }
+    .blocco-servizi p{
+      font-style: normal;
+      margin-left: 100;
+      margin-right: 100;
+      font-family: "Poppins", sans-serif;
+      font-size: 1rem;
+      line-height: 1.7;
+      font-weight: bold;
+      color: #3c4043;
+      margin-bottom: 3.5%;
+    }
+    .bottone1{
+      display: inline-block;
+      font-family: inherit;
+      border-radius: 0.42rem 0.42rem 0.42rem 0.42rem;
+      font-size: 12px;
+      font-weight: bold;
+      letter-spacing: .5px;
+      text-decoration: none;
+      outline: none;
+      padding: 12px 18px;
+      position: center;
+      text-transform: uppercase;
+      background-color: #0001fc;
+      border-color: #0001fc;
+      border-width: 1px;
+      border-style: solid;
+      color: #fff;
+      -webkit-transition: all 0.3s;
+      transition: all 0.3s;
+      margin-bottom: 6px;
+      outline: none;
+      line-height: 14px;
+      cursor: pointer;
+    }
+    .bottone1:hover {
+      color: #494f54;
+     }
+     .heading-text.heading-section h2 {
+       position: relative; 
+       font-size: 48px; 
+       line-height: 56px; 
+       margin-bottom: 60px;
+       margin-top: 5vh;
+       }
+
+       .row {
+        
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px; }
+
+
+        
+
+        .site-logo img{
+          width: 30vh;
+        }
+
+         /* inizio blocco partner*/
+        .titolo-partner h2{
+          margin-top: 7vh;
+          margin-bottom: 5vh;
+          text-align: center;
+          font-weight: bold;
+          font-size: 2em;
+        }
+        .in-line{
+          text-align: center;
+        }
+        .in-line .img-partner{
+          display: inline-block;
+          
+        }
+        .in-line p{
+          text-align: center;
+          
+        }
+        .img-partner img{
+          
+          width: 15vh;
+        }
+        /*fine blocco partner*/ 
+
+
+       #page-title { clear: both; padding: 80px 0; background-color: #fbfbfb; position: relative; /* page header left*/ /* page header right*/ }
+
+#page-title .page-title { text-align: center; padding: 0; }
+
+#page-title .page-title > h1 { font-family: "Poppins", sans-serif; font-size: 2.5rem; line-height: 1.2; font-weight: 400; margin-bottom: 1rem; }
+
+#page-title .page-title > span { font-weight: 400; font-size: 14px; }
+
+#page-title .breadcrumb { text-align: center !important; margin-bottom: 0; padding: 0; background-color: #3ea5fb ; }
+
+#page-title.page-title-left .page-title { float: left; text-align: left; clear: both; }
+
+#page-title.page-title-left .breadcrumb { float: left; text-align: left; display: block; }
+
+#page-title.page-title-right .page-title { float: right; text-align: right; clear: both; }
+
+#page-title.page-title-right .breadcrumb { float: right; text-align: right; }
+
+#page-title[data-bg-parallax] .page-title > h1 { color: #fff; }
+
+#page-title[data-bg-parallax] .page-title > span { color: #fff; }
+
+#page-title[data-bg-parallax] .breadcrumb ul li + li:before { color: #fff; }
+
+#page-title[data-bg-parallax] .breadcrumb ul li a { color: #fff; }
+
+#page-title[data-bg-parallax], #page-title[data-bg-video] { background-color: #1e2022; }
+
+#header[data-transparent="true"] + #page-title { top: -120px; margin-bottom: -124px; position: relative; padding: 220px 0 160px 0; }
+
+.dark #page-title, #page-title.dark { background-color: #1e2022; }
+
+.dark #page-title .page-title > h1, #page-title.dark .page-title > h1 { color: #1e2022; }
+
+.dark #page-title .page-title > span, #page-title.dark .page-title > span { color: #1e2022; }
+
+.dark #page-title .breadcrumb ul li + li:before, #page-title.dark .breadcrumb ul li + li:before { color: #1e2022; }
+
+.dark #page-title .breadcrumb ul li a, #page-title.dark .breadcrumb ul li a { color: #1e2022; }
+
+@media (max-width: 991.98px) { #page-title .page-title > h1 { font-size: 26px; line-height: 34px; }
+  #header[data-transparent="true"] + #page-title { top: -120px; margin-bottom: -124px; padding: 160px 0 80px 0; } }
+
+
+
+  .breadcrumb { background-color: transparent; font-size: 12px; font-weight: 400; letter-spacing: 0.5px; margin-bottom: 10px; display: block; }
+
+.breadcrumb ul, .breadcrumb ol { display: inline; margin: 0; padding: 0; }
+
+.breadcrumb ul .breadcrumb-item, .breadcrumb ul li, .breadcrumb ol .breadcrumb-item, .breadcrumb ol li { display: inline; position: relative; opacity: .8; }
+
+.breadcrumb ul .breadcrumb-item + li:before, .breadcrumb ul li + li:before, .breadcrumb ol .breadcrumb-item + li:before, .breadcrumb ol li + li:before { content: "\e930"; font-family: "inspiro-icons"; margin: 0 5px; background-color: transparent; }
+
+.breadcrumb ul .breadcrumb-item a, .breadcrumb ul li a, .breadcrumb ol .breadcrumb-item a, .breadcrumb ol li a { color: #3c4043; }
+
+.breadcrumb ul .breadcrumb-item:hover, .breadcrumb ul .breadcrumb-item.active, .breadcrumb ul .breadcrumb-item:last-child, .breadcrumb ul li:hover, .breadcrumb ul li.active, .breadcrumb
+
 
 .hero {
   height: 100vh;
@@ -63,7 +225,7 @@ a {
   .site-navbar .toggle-button {
     position: absolute;
     right: 0px; }
-  .site-navbar .site-logo {
+  .site-navbar .site-logo{
     position: absolute;
     font-size: 2rem;
     text-transform: uppercase;
@@ -71,7 +233,12 @@ a {
     line-height: 0;
     margin: 0;
     padding: 0;
-    z-index: 3; }
+    z-index: 3;}
+    .site-navbar .site-logo .texy-black{
+
+      
+    }
+    
     @media (max-width: 991.98px) {
       .site-navbar .site-logo {
         float: left;
