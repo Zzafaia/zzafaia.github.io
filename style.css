@@ -1,0 +1,196 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 0;
+}
+
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 2%;
+  text-align: center;
+  
+}
+
+h1 img{
+  width: 50px;
+
+}
+h1 .img2{
+  width: 59px;
+
+}
+.desktop-menu {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+
+.desktop-menu li {
+  margin-right: 10px;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+
+
+.nav-item{
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+section {
+  padding: 20px;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.box-alimenti{
+  float: right;
+  width: 50%;
+}
+
+.box-prezzo {
+  width: 30%;
+  text-align: right;
+}
+
+
+.box-alimenti li, .box-prezzo li {
+  list-style-type: none;
+  white-space: pre-line;
+
+}
+
+.section-title {
+  text-align: center;
+  font-size: 31px;
+  margin-left: 0;
+}
+.section-title img{
+   width: 38px;
+}
+
+.decorative-line {
+  height: 1px;
+  background-color: #ccc;
+  margin: 10px auto;
+  width: 100%;
+ 
+}
+.decorative-line img
+  {
+     width: 38px;
+  }
+
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 10px auto;
+  width: 100%;
+  
+}
+
+/* Stili per schermi di larghezza massima 600px */
+@media (max-width: 600px) {
+    .desktop-menu {
+      display: none;
+    }
+  
+    .mobile-menu {
+      display: flex;
+    }
+  
+  body {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  header {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom:10%
+  }
+  .box-nav1
+  {
+    width: 100% ;
+    
+    text-align: left;
+  }
+  .box-nav2
+  {
+    text-align: left;
+  }
+  .box-nav3
+  {
+    width: 100%;
+    text-align: center;
+  }
+  nav ul li {
+    display: block;
+    margin-bottom: 10px;
+    
+  }
+ nav ul li a{
+  font-size: 20px;
+  font-weight: bold;
+ }
+  section {
+    padding: 10px;
+  }
+
+  .box-prezzo {
+    
+    width: 100%;
+    text-align: right;
+  }
+  .box-alimenti {
+    
+    width: 100%;
+    text-align: left;
+  }
+  .decorative-line {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  
+
+ 
+  hr {
+    width: 100%;
+    margin-left: 0;
+  }
+}
